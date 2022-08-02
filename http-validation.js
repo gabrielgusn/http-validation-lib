@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import chalk from 'chalk';
 
 function handleErrors(err){
-    throw new Error(chalk.underline.bgRed(err.message));
+    throw new Error(chalk.underline.bgRed(err));
 }
 async function checkStatus(urlsArray){
     try{
