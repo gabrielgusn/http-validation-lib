@@ -1,6 +1,6 @@
 {
   "name": "validattp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "This is a npm lib project made to detect and validate links in markdown text files.",
   "main": "index.js",
@@ -8,7 +8,10 @@
     "test": "jest ./test ",
     "cli": "node ./cli.js"
   },
-  "keywords": ["markdown", "URL"],
+  "keywords": [
+    "markdown",
+    "URL"
+  ],
   "homepage": "https://github.com/gabrielgusn/http-validation-lib",
   "author": "Gabriel Gustavo Nicolodi",
   "bugs": {
