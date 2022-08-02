@@ -2,7 +2,11 @@
 
 This is a npm lib project with a script made to detect and validate links in markdown text files.
 
-To run it, you will need to clone this repository and run in the command line interface the following commands:
+To run it, you will need to clone this repository and install the local dependencies of the project with
+
+`npm install`
+
+To run the script, in the command line interface, use the following commands:
 
 `npm run cli <path-of-the-directory-you-want-to-validate> validate`
 
