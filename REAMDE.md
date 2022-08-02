@@ -1,0 +1,5 @@
+# HTTP Validation Lib
+
+This is a npm lib project made to detect and validate links in text files.
+
+to run it, you can 

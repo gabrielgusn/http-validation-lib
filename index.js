@@ -2,7 +2,7 @@ import chalk from 'chalk';
 import fs from 'fs';
 import path from 'path';
 import * as url from 'url';
-    // const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
+    const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 import fetch from 'node-fetch';
 
 function dealErr(err){
